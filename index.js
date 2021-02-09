@@ -47,7 +47,10 @@ function resolveOptions(options) {
  * Run Spectacle and configured tasks
  **/
 module.exports = function (options) {
+    console.log(options.targetDir)
     var opts = resolveOptions(options)
+    console.log(opts.targetDir)
+    console.log(options)
 
     //
     //= Load the specification and init configuration
